@@ -15,5 +15,5 @@ The completed user stories are as follows.
     User can tap on any image in results to see the image full-screen
     User can scroll down “infinitely” to continue loading more image results (up to 8 pages) -- This not working . I have coded.
   
-  ## Demo
+## Demo
 ![demo](demo.gif "Grid Image Search")
