@@ -135,6 +135,8 @@ public class SearchActivity extends Activity {
 //        Toast toast = Toast.makeText(this, "Entered Query " + editText.getText().toString(),
 //                Toast.LENGTH_LONG);
 //        toast.show();
+        imageList.clear();
+        adapter.clear();
         Log.d("DEBUG", "Search Images");
 
         AsyncHttpClient client = new AsyncHttpClient();
@@ -152,8 +154,6 @@ public class SearchActivity extends Activity {
             public void onSuccess(int statusCode, Header[] headers, JSONObject response)  {
                 Log.d("ERROR", response.toString());
                 try {
-                    imageList.clear();
-                    adapter.clear();
                     JSONArray resultArray = response.getJSONObject("responseData").getJSONArray("results");
                     adapter.addAll(ImageInfo.fromJSONArray(resultArray));
 
