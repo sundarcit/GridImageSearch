@@ -13,7 +13,7 @@ The completed user stories are as follows.
       Site (espn.com)
     Subsequent searches will have any filters applied to the search results
     User can tap on any image in results to see the image full-screen
-    User can scroll down “infinitely” to continue loading more image results (up to 8 pages) -- This not working . I have coded.
+    User can scroll down “infinitely” to continue loading more image results (up to 8 pages)
   
 ## Demo
 ![demo](demo.gif "Grid Image Search")
